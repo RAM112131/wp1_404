@@ -3,12 +3,10 @@
     <head>
         <title>Tugas Ke 2</title>
     </head>
+    
     <body>
-        
+        <h1>Tugas 2 Pertemuan 3</h1>
         <?php
-        // konstanta judul
-        define ("judul","Tugas 2 Pertemuan 3 Web Programing I");
-
         // variabel data
         $nama = "lintang Seruni Senja";
         $alamat = "Jl. Badak No. 2 Cimahi-Bandung";
@@ -16,7 +14,6 @@
         $tlp = "08212345678";
 
         // mencetak data
-        echo judul;
         echo "<br>Nama Saya : $nama <br>";
         echo "Alamat : $alamat <br>";
         echo "TTL : $ttl <br>";
