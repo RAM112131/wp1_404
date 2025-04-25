@@ -6,11 +6,14 @@
         </title>
     </head>
     <body align=center>
-        <h1>Berkaa Shop</h1>
+        <table border=1 align=center>
+            <tr>
+                <td>
+                <h1>Berkaa Shop</h1>
         <p>Jl. Medayu Utara 50, Surabaya<br>81529620220414142434</p>
         <?php
         // konstanta garis
-        define ("garis","========================================");
+        define ("garis"," ======================================== ");
 
         // variabel harga
         $h_ayam_geprek = 12000;
@@ -53,6 +56,9 @@ Kembali                                     Rp $kembali
 ;
         ?>
         <p>kirim kritik dan saran ke :<br>https://berkaashop.com</p>
+                </td>
+            </tr>
+        </table>
     </body>
 </html>
 
