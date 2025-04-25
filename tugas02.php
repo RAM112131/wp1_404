@@ -7,6 +7,9 @@
     <body>
         <h1>Tugas 2 Pertemuan 3</h1>
         <?php
+        // tambahan atribut konstanta
+        define ("garis","=================================");
+
         // variabel data
         $nama = "lintang Seruni Senja";
         $alamat = "Jl. Badak No. 2 Cimahi-Bandung";
@@ -14,11 +17,11 @@
         $tlp = "08212345678";
 
         // mencetak data
-        echo "<pre>
-        Nama Saya       : $nama
-        Alamat          : $alamat
-        TTL             : $ttl
-        Telp            : $tlp";
+        echo garis, 
+"<pre>Nama Saya       : $nama
+Alamat          : $alamat
+TTL             : $ttl
+Telp            : $tlp </pre>", garis;
         ?>
     </body>
 </html>
