@@ -14,10 +14,11 @@
         $tlp = "08212345678";
 
         // mencetak data
-        echo "<br>Nama Saya : $nama <br>";
-        echo "Alamat : $alamat <br>";
-        echo "TTL : $ttl <br>";
-        echo "Telp : $tlp <br>";
+        echo "<pre>
+        Nama Saya       : $nama
+        Alamat          : $alamat
+        TTL             : $ttl
+        Telp            : $tlp";
         ?>
     </body>
 </html>
