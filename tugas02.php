@@ -17,7 +17,7 @@
 
         // mencetak data
         echo judul;
-        echo "\nNama Saya : $nama <br>";
+        echo "<br>Nama Saya : $nama <br>";
         echo "Alamat : $alamat <br>";
         echo "TTL : $ttl <br>";
         echo "Telp : $tlp <br>";
