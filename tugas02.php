@@ -16,8 +16,8 @@
         $tlp = "08212345678";
 
         // mencetak data
-        echo "judul <br>";
-        echo "Nama Saya : $nama <br>";
+        echo judul;
+        echo "\nNama Saya : $nama <br>";
         echo "Alamat : $alamat <br>";
         echo "TTL : $ttl <br>";
         echo "Telp : $tlp <br>";
