@@ -20,6 +20,4 @@ echo "
 $teks1.$teks2<br>
 Panjang sisi kubus = $sisi cm<br>
 Volume Kubus = $volume m3";
-
-
 ?>
